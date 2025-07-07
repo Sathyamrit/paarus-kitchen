@@ -1,7 +1,11 @@
 import React from "react";
 import "./About.css";
 
-const aboutTitle = <h1 className="about-title">About Paaru's Kitchen</h1>;
+const aboutTitle = (
+  <h1 className="about-title" style={{ marginBottom: "0.5rem" }}>
+    About Paaru's Kitchen
+  </h1>
+);
 
 const aboutTagline = (
   <p className="about-tagline">
@@ -10,7 +14,7 @@ const aboutTagline = (
 );
 
 const aboutParagraph1 = (
-  <p>
+  <p style={{ marginBottom: "1rem" }}>
     Paaru's Kitchen was born from a passion to share the rich, rustic flavors of
     Karnataka’s countryside with the city. Our founders (founder_Name), true food
     lovers, wanted to create a space where everyone could experience the warmth
@@ -20,7 +24,7 @@ const aboutParagraph1 = (
 );
 
 const aboutParagraph2 = (
-  <p>
+  <p style={{ marginBottom: "1rem" }}>
     Every dish at Paaru's Kitchen is crafted with care, using fresh, locally
     sourced ingredients and time-honored recipes passed down through generations.
     From our signature Benne Mutton Biryani to our flavorful kababs and Sunday
@@ -41,7 +45,7 @@ const aboutParagraph3 = (
 const aboutImage = (
   <div className="about-image-container">
     <img
-      src="https://placehold.co/500x500"
+      src="images/logo4.png"
       alt="About Paaru's Kitchen"
       className="about-image"
     />

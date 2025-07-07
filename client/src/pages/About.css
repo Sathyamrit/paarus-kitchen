@@ -1,6 +1,6 @@
 .about-container {
-  max-width: 800px;
-  margin: 3rem auto 2rem auto;
+  max-width: 80%;
+  margin: 6rem auto 2rem auto;
   padding: 2rem 2.5rem;
   background: #fff8ef;
   border-radius: 24px;
@@ -59,7 +59,7 @@
 .about-flex {
   display: flex;
   gap: 2.5rem;
-  align-items: flex-start;
+  align-items: center;
   justify-content: space-between;
 }
 
@@ -72,11 +72,13 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
+  box-shadow: 0 2px 12px rgba(124,63,0,0.15);
+  border-radius: 16px;
 }
 
 .about-image {
   width: 100%;
-  max-width: 500px;
+  max-width: 50em;
   border-radius: 16px;
   background: #e0e0e0;
 }

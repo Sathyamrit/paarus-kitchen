@@ -54,10 +54,16 @@ const menuItems = [
   { name: "Boiled Egg", price: "₹20", img: "https://placehold.co/200x150", category: "Extras" },
 ];
 
+const menuDescription = (
+  <p className="menu-description" style={{ marginBottom: "1.5rem" }}>
+    Welcome to Paaru's Kitchen, where we bring you the authentic flavors of Karnataka's nati cuisine. Our menu features a variety of dishes, from our famous Benne Mutton Biryani to delicious kababs and traditional home-cooked meals. Whether you're here for our Sunday specials or our weekday delights, we promise a culinary experience that feels like home.
+  </p>
+);
 const Menu = () => {
   return (
     <div className="menu">
       <h1 className="menu-title">Menu</h1>
+      {menuDescription}
       <div className="menu-items">
         {menuItems.map((item, idx) => (
           <div className="menu-item" key={idx}>
