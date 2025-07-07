@@ -10,7 +10,12 @@
   --color-accent: #8A2D3B;   /* Deep Burgundy */
 }
 
+html, body {
+  overflow-x: hidden;
+}
+
 body {
+  width: 100vw;
   background-color: var(--color-primary);
   color: var(--color-accent);
   font-family: sans-serif;
@@ -31,4 +36,14 @@ button, .btn {
 
 a {
   color: var(--color-secondary);
+}
+
+.App {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+main {
+  flex: 1;
 }
